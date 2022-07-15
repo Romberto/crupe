@@ -1,0 +1,76 @@
+.contact__title{
+    margin: 50px 0 ;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+.contact__block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact__lable{
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-right: 20px;
+}
+
+.ya_map {
+	font-family: arial;
+	font-size: 12px;
+	color: #454545;
+}
+ 
+#map {
+	width: 660px;
+	height: 300px;
+}
+.contact__map{
+    margin: 30px auto;
+    width: 660px;
+}
+
+.contact__link{
+    color: red;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+@media(max-width: 750px){
+    .contact__addres{
+        width: 500px;
+        line-height: 1.4rem;
+    }
+}
+@media(max-width: 680px){
+    #map {
+        width: 480px;
+        height: 300px;
+    }
+    .contact__map{
+        margin: 30px auto;
+        width: 480px;
+    }
+}
+@media(max-width:500px){
+    #map {
+        width: 380px;
+        height: 300px;
+    }
+    .contact__map{
+        margin: 30px auto;
+        width: 380px;
+    }
+}
+@media(max-width:400px){
+    #map {
+        width: 300px;
+        height: 300px;
+    }
+    .contact__map{
+        margin: 30px auto;
+        width: 300px;
+    }
+}
+
