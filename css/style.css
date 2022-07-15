@@ -428,5 +428,8 @@
         text-align: center;
         line-height: 1.5rem;
     }
+    .sortex__img{
+        max-width: 300px;
+    }
     
 }
