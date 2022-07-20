@@ -229,6 +229,12 @@
     right: 70px;
     position: absolute;
 }
+.mobile_nav_link img{
+    width: 50px;
+    top: 0;
+    right: 135px;
+    position: absolute;
+}
 
 
 @media(max-width:750px){
